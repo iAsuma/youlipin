@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/classify/classify",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,7 +14,8 @@
   },
   "tabBar": {
     "backgroundColor": "#ffe719",
-    "borderStyle":"white",
+    "borderStyle": "white",
+    "selectedColor": "#353535",
     "list": [
       {
         "pagePath": "pages/index/index",

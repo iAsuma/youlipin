@@ -1,4 +1,4 @@
 <!--pages/demo/demo.wxml-->
-<web-view src="http://m.baidu.com"></web-view>
+<web-view src="http://www.baidu.com"></web-view>
 <text>pages/demo/demo.wxml</text>
 
