@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffe719",
+    "navigationBarTitleText": "YOHO",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#ffe719",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "res/icons/tab1-1.png",
+        "selectedIconPath": "res/icons/tab1-2.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "res/icons/tab2-1.png",
+        "selectedIconPath": "res/icons/tab2-2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "res/icons/tab3-1.png",
+        "selectedIconPath": "res/icons/tab3-2.png"
+      }
+    ]
+  }
+}
