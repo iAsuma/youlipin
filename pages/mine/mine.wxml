@@ -1,6 +1,13 @@
-<!--logs.wxml-->
-<view class="container log-list">
+<view class="container">
+<view class="login_info">
+<image src="/res/images/login.png" mode='aspectFit'></image>
+<button plain="true">登录</button>
+</view>
+<view></view>
+<view></view>
+</view>
+<!-- <view class="container log-list">
   <block wx:for="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
-</view>
+</view> -->
