@@ -1,10 +1,10 @@
-<view class="container">
-<view class="login_info">
+<view class="container" style='width:100%'>
+<view class="login-info">
 <image src="/res/images/login.png" mode='aspectFit'></image>
 <button plain="true">登录</button>
 </view>
-<view></view>
-<view></view>
+<view class='set-block'></view>
+<view class='demo'></view>
 </view>
 <!-- <view class="container log-list">
   <block wx:for="{{logs}}" wx:for-item="log">
